@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "aws_region": "us-east-1",
+    "user_pool_id": "us-east-1_examplepool",
+    "user_pool_client_id": "exampleclientid12345",
+    "identity_pool_id": "us-east-1:example-identity-id",
+    "login_mechanisms": ["EMAIL"],
+    "signup_attributes": ["EMAIL"],
+    "password_policy_min_length": 8
+  }
+}
