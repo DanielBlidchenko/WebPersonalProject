@@ -44,10 +44,10 @@ export default function Home() {
         {/* Title */}
         <section className="text-center space-y-3">
           <h2 className="text-4xl font-extrabold tracking-tight">
-            Welcome to Weather Home
+            Weather Home
           </h2>
           <p className="text-zinc-600">
-            A simple landing page with weather snapshots. Click the button below
+            Click the button below
             to see live weather
           </p>
         </section>
@@ -116,7 +116,7 @@ export default function Home() {
 
         {user ? (
           <p className="text-center text-sm text-emerald-700">
-            ✅ You’re signed in. You can access the{" "}
+             You’re signed in. You can access the{" "}
             <Link href="/members" className="underline">
               Members Area
             </Link>
